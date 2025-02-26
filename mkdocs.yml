@@ -7,6 +7,8 @@ theme:
     code: Red Hat Mono
   logo: assets/logo.png
   favicon: assets/favicon-logo.png
+  features: 
+    - navigation.footer
   nav:
   - "material/tab Content Tabs": content-tabs.md  # File đơn
   - "material/folder Assets":  # Thư mục chứa các file con
