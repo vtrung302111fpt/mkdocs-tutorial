@@ -1,6 +1,5 @@
 site_name: FTS ENO 2024 Documentation
 site_url: https://sitename.example
-use_directory_urls: false
 theme:
   name: material
   font:
