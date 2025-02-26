@@ -8,7 +8,7 @@ theme:
   logo: assets/logo.png
   favicon: assets/favicon-logo.png
   features: 
-    - navigation.header
+    - navigation.instant
 
   nav:
   - "material/tab Content Tabs": content-tabs.md  # File đơn
