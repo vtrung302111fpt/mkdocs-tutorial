@@ -1,5 +1,6 @@
 site_name: FTS ENO 2024 Documentation
 site_url: https://sitename.example
+use_directory_urls: false
 theme:
   name: material
   font:
@@ -9,7 +10,6 @@ theme:
   favicon: assets/favicon-logo.png
   features: 
     - navigation.instant
-
   nav:
   - "material/tab Content Tabs": content-tabs.md  # File đơn
   - "material/folder Assets":  # Thư mục chứa các file con
