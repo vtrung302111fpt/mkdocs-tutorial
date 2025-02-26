@@ -1,0 +1,79 @@
+site_name: FTS ENO 2024 Documentation
+site_url: https://sitename.example
+theme:
+  name: material
+  font:
+    text: Merriwather Sans
+    code: Red Hat Mono
+  logo: assets/logo.png
+  favicon: assets/favicon-logo.png
+  features: 
+    - navigation.header
+
+  nav:
+  - "material/tab Content Tabs": content-tabs.md  # File đơn
+  - "material/folder Assets":  # Thư mục chứa các file con
+      - "material/image Images": Assets/admonition.md
+      - "material/video Videos": Assets/code-example.md
+      - "material/audio Audio": Assets/diagrams-example.md
+
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: green
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep orange
+
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+
+
+
+extra:
+  social:
+    - icon: fontawesome/brands/youtube
+      link: https://jameswillett.dev/getting-started-with-material-for-mkdocs/#publish-site-to-github-pages
+    - icon: fontawesome/brands/linkedin
+      link: https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/
+
+
+copyright: Copyright by First Trust Solution
+
+
+# extra_css:
+#   - stylesheets/custom.css
+
+
+
+
+ 
+
